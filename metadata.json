@@ -1,0 +1,6 @@
+{
+  "name": "D' Physco-Bit - Space Astronaut Health Telemetry",
+  "description": "Deep-space astronaut physiological & psychological health telemetry platform featuring real-time biometrics, microgravity adaptation, and cognitive monitoring companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

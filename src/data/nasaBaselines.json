@@ -1,0 +1,49 @@
+{
+  "source": "NASA-STD-3001 & NASA HRP",
+  "baselines": {
+    "restingHeartRate": {
+      "label": "Resting Heart Rate",
+      "min": 50,
+      "max": 85,
+      "unit": "bpm",
+      "standard": "NASA HRP Cardiovascular Baseline"
+    },
+    "bloodPressure": {
+      "label": "Blood Pressure",
+      "systolicMin": 90,
+      "systolicMax": 130,
+      "diastolicMin": 60,
+      "diastolicMax": 85,
+      "unit": "mmHg",
+      "standard": "NASA-STD-3001 Hemodynamic Envelope"
+    },
+    "cabinCo2": {
+      "label": "Cabin CO2 Limit",
+      "max": 3.0,
+      "ppmMax": 4000,
+      "unit": "mmHg",
+      "standard": "NASA-STD-3001 Atmospheric Limit"
+    },
+    "radiationExposure": {
+      "label": "Radiation Exposure",
+      "max": 0.5,
+      "unit": "mSv/day",
+      "standard": "NASA-STD-3001 LEO Baseline"
+    },
+    "sleepDuration": {
+      "label": "Sleep Duration",
+      "min": 6.5,
+      "max": 8.5,
+      "unit": "hrs/cycle",
+      "standard": "NASA HRP Circadian & Sleep Guidelines"
+    },
+    "stressCortisolIndex": {
+      "label": "Stress / Cortisol Index",
+      "min": 0,
+      "max": 100,
+      "alertThreshold": 70,
+      "unit": "index",
+      "standard": "NASA HRP Behavioral Health & Stress"
+    }
+  }
+}
