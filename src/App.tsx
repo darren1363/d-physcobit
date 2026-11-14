@@ -18,7 +18,7 @@ import { StethoscopeIcon } from './components/icons/StethoscopeIcon';
 // Preload and decode avatar image into GPU memory cache so it never flickers or delays
 if (typeof window !== 'undefined') {
   const avatarPreloader = new Image();
-  avatarPreloader.src = '/avatar.png';
+  avatarPreloader.src = './avatar.jpg';
   if ('decode' in avatarPreloader) {
     avatarPreloader.decode().catch(() => {});
   }
