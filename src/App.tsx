@@ -96,7 +96,7 @@ export default function App() {
             {/* Astronaut Character with Float Animation */}
             {!imageError ? (
               <img
-                src="/avatar.png"
+                src="./avatar.png"
                 alt="D' Physco-Bit astronaut character"
                 loading="eager"
                 decoding="sync"
